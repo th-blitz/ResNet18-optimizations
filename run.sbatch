@@ -17,5 +17,7 @@ SINGULARITY_IMAGE=~/hpml-assignment-2/cuda12.2
 
 OVERLAY_FILE=~/hpml-assignment-2/overlay-15
 
-singularity exec --nv --overlay $OVERLAY_FILE:ro $SINGULARITY_IMAGE /bin/bash -c "source /ext3/env.sh; conda activate pytorch-0; source lab2.batch"
+DATASET_PATH='..dataset'
+
+singularity exec --nv --overlay $OVERLAY_FILE:ro $SINGULARITY_IMAGE /bin/bash -c "source /ext3/env.sh; conda activate pytorch-0; source lab2.batch $DATASET_PATH"
 

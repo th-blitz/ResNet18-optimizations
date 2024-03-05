@@ -2,7 +2,7 @@
 
 
 
-DATASET_PATH='../dataset'
+DATASET_PATH=$1
 
 echo "**************** QNS C1 AND C2 ********************"
 echo "c1 and c2"
