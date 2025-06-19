@@ -1,0 +1,95 @@
+...........................running new python file.............................
+python3 lab2.py --device=cuda     --dataset-path=../dataset     --optimizer=sgd     --num-of-workers=2     --epochs=2     --batch-size=64     --print-epochs=true     --download-data=true     --run-code-3=false     --run-profiler=false     --no-batch-norm=false     --max-num-of-workers-for-code-3=8
+Files already downloaded and verified
+Number of trainable parameters :  11173962
+-----------------------------------------------
+Epoch :  1
+Time taken for Epoch :  40.7215 sec
+Load Time for epoch :  0.696909 sec with 2 workers  | cpu to gpu time :  0.259865 | Train Time :  37.248210 sec | steps in epoch :  782
+Avg Loss :  1.906  | Avg Accuracy :  30.878 %
+Top 1 accuracy is  1 among the individual label accuracies [35.66 42.2  12.14 23.84 23.52 25.26 39.06 33.34 42.   31.76]
+-----------------------------------------------
+Epoch :  2
+Time taken for Epoch :  35.8276 sec
+Load Time for epoch :  0.705024 sec with 2 workers  | cpu to gpu time :  0.264292 | Train Time :  32.516933 sec | steps in epoch :  782
+Avg Loss :  1.403  | Avg Accuracy :  49.03 %
+Top 1 accuracy is  1 among the individual label accuracies [49.68 65.42 32.92 27.66 36.4  41.96 60.2  56.12 62.1  57.84]
+Number of gradiants :  11173962
+Avg Data Load times with `2` workers is `0.700966` sec and Avg Train Times is `34.882571` sec
+Avg epoch time is `38.2746` sec
+...........................running new python file.............................
+python3 lab2.py --device=cuda     --dataset-path=../dataset     --optimizer=sgd     --num-of-workers=2     --epochs=2     --batch-size=256     --print-epochs=true     --download-data=true     --run-code-3=false     --run-profiler=false     --no-batch-norm=false     --max-num-of-workers-for-code-3=8
+Files already downloaded and verified
+Number of trainable parameters :  11173962
+-----------------------------------------------
+Epoch :  1
+Time taken for Epoch :  15.3327 sec
+Load Time for epoch :  0.257139 sec with 2 workers  | cpu to gpu time :  0.198144 | Train Time :  12.760437 sec | steps in epoch :  196
+Avg Loss :  2.065  | Avg Accuracy :  27.7 %
+Top 1 accuracy is  6 among the individual label accuracies [29.48 36.6   6.06 18.48 23.1  23.54 40.84 24.36 36.26 38.28]
+-----------------------------------------------
+Epoch :  2
+Time taken for Epoch :  14.8630 sec
+Load Time for epoch :  0.257523 sec with 2 workers  | cpu to gpu time :  0.195178 | Train Time :  12.098241 sec | steps in epoch :  196
+Avg Loss :  1.527  | Avg Accuracy :  43.584 %
+Top 1 accuracy is  1 among the individual label accuracies [45.18 59.24 22.72 29.48 29.68 38.34 53.2  50.34 56.12 51.54]
+Number of gradiants :  11173962
+Avg Data Load times with `2` workers is `0.257331` sec and Avg Train Times is `12.429339` sec
+Avg epoch time is `15.0978` sec
+...........................running new python file.............................
+python3 lab2.py --device=cuda     --dataset-path=../dataset     --optimizer=sgd     --num-of-workers=2     --epochs=2     --batch-size=1024     --print-epochs=true     --download-data=true     --run-code-3=false     --run-profiler=false     --no-batch-norm=false     --max-num-of-workers-for-code-3=8
+Files already downloaded and verified
+Number of trainable parameters :  11173962
+-----------------------------------------------
+Epoch :  1
+Time taken for Epoch :  12.8129 sec
+Load Time for epoch :  0.138340 sec with 2 workers  | cpu to gpu time :  0.172323 | Train Time :  10.601908 sec | steps in epoch :  49
+Avg Loss :  2.340  | Avg Accuracy :  20.808 %
+Top 1 accuracy is  0 among the individual label accuracies [39.84 22.7  15.52 19.3  17.16 14.62 22.24  9.4  30.84 16.46]
+-----------------------------------------------
+Epoch :  2
+Time taken for Epoch :  12.1708 sec
+Load Time for epoch :  0.142647 sec with 2 workers  | cpu to gpu time :  0.171761 | Train Time :  9.884823 sec | steps in epoch :  49
+Avg Loss :  1.713  | Avg Accuracy :  35.152 %
+Top 1 accuracy is  8 among the individual label accuracies [40.68 44.2  17.34 16.14 23.9  39.08 44.86 34.18 47.1  44.04]
+Number of gradiants :  11173962
+Avg Data Load times with `2` workers is `0.140494` sec and Avg Train Times is `10.243366` sec
+Avg epoch time is `12.4918` sec
+...........................running new python file.............................
+python3 lab2.py --device=cuda     --dataset-path=../dataset     --optimizer=sgd     --num-of-workers=2     --epochs=2     --batch-size=4096     --print-epochs=true     --download-data=true     --run-code-3=false     --run-profiler=false     --no-batch-norm=false     --max-num-of-workers-for-code-3=8
+Files already downloaded and verified
+Number of trainable parameters :  11173962
+-----------------------------------------------
+Epoch :  1
+Time taken for Epoch :  13.1026 sec
+Load Time for epoch :  0.108531 sec with 2 workers  | cpu to gpu time :  0.166998 | Train Time :  10.126857 sec | steps in epoch :  13
+Avg Loss :  2.896  | Avg Accuracy :  15.29 %
+Top 1 accuracy is  6 among the individual label accuracies [14.06 24.92  7.1   3.96 23.64  6.42 29.4   6.24 23.88 13.28]
+-----------------------------------------------
+Epoch :  2
+Time taken for Epoch :  12.6219 sec
+Load Time for epoch :  0.117649 sec with 2 workers  | cpu to gpu time :  0.166726 | Train Time :  9.382402 sec | steps in epoch :  13
+Avg Loss :  1.990  | Avg Accuracy :  25.982 %
+Top 1 accuracy is  0 among the individual label accuracies [41.38 29.98 23.36 16.18 14.6  24.46 32.96 16.58 25.9  34.42]
+Number of gradiants :  11173962
+Avg Data Load times with `2` workers is `0.113090` sec and Avg Train Times is `9.754629` sec
+Avg epoch time is `12.8623` sec
+...........................running new python file.............................
+python3 lab2.py --device=cuda     --dataset-path=../dataset     --optimizer=sgd     --num-of-workers=2     --epochs=2     --batch-size=16384     --print-epochs=true     --download-data=true     --run-code-3=false     --run-profiler=false     --no-batch-norm=false     --max-num-of-workers-for-code-3=8
+Files already downloaded and verified
+Number of trainable parameters :  11173962
+-----------------------------------------------
+Epoch :  1
+Time taken for Epoch :  18.0775 sec
+Load Time for epoch :  0.092420 sec with 2 workers  | cpu to gpu time :  0.164838 | Train Time :  10.547976 sec | steps in epoch :  4
+Avg Loss :  2.578  | Avg Accuracy :  14.972 %
+Top 1 accuracy is  6 among the individual label accuracies [24.92 14.4  19.28  5.98 15.14 14.86 25.7   7.18 18.44  3.82]
+-----------------------------------------------
+Epoch :  2
+Time taken for Epoch :  15.9984 sec
+Load Time for epoch :  0.096308 sec with 2 workers  | cpu to gpu time :  0.166054 | Train Time :  9.416166 sec | steps in epoch :  4
+Avg Loss :  3.770  | Avg Accuracy :  18.546 %
+Top 1 accuracy is  6 among the individual label accuracies [21.08 13.78  1.46  3.82 13.88 22.88 45.8   0.   40.28 22.48]
+Number of gradiants :  11173962
+Avg Data Load times with `2` workers is `0.094364` sec and Avg Train Times is `9.982071` sec
+Avg epoch time is `17.0380` sec

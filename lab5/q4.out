@@ -1,0 +1,150 @@
+...........................running new python file.............................
+python3 lab2.py --device=cuda     --dataset-path=../dataset     --optimizer=sgd     --num-of-workers=2     --epochs=5     --batch-size=2048     --print-epochs=true     --download-data=true     --run-code-3=false     --run-profiler=false     --no-batch-norm=false     --max-num-of-workers-for-code-3=8
+Files already downloaded and verified
+Number of trainable parameters :  11173962
+-----------------------------------------------
+Epoch :  1
+Time taken for Epoch :  14.6855 sec
+Load Time for epoch :  0.489226 sec with 2 workers  | cpu to gpu time :  0.177875 | Train Time :  11.073091 sec | steps in epoch :  25
+Avg Loss :  2.648  | Avg Accuracy :  19.174 %
+Top 1 accuracy is  8 among the individual label accuracies [22.98 29.16  9.7  18.14 16.32  7.92 22.54  9.54 31.56 23.88]
+-----------------------------------------------
+Epoch :  2
+Time taken for Epoch :  9.0322 sec
+Load Time for epoch :  1.843082 sec with 2 workers  | cpu to gpu time :  0.148683 | Train Time :  4.498373 sec | steps in epoch :  25
+Avg Loss :  1.803  | Avg Accuracy :  31.344 %
+Top 1 accuracy is  1 among the individual label accuracies [36.84 46.64 11.88 12.18 23.9  33.96 37.3  28.64 42.7  39.4 ]
+-----------------------------------------------
+Epoch :  3
+Time taken for Epoch :  8.9382 sec
+Load Time for epoch :  1.732779 sec with 2 workers  | cpu to gpu time :  0.133842 | Train Time :  4.606912 sec | steps in epoch :  25
+Avg Loss :  1.601  | Avg Accuracy :  39.532 %
+Top 1 accuracy is  1 among the individual label accuracies [39.48 59.94 19.8  21.08 30.4  37.64 40.86 43.06 53.68 49.38]
+-----------------------------------------------
+Epoch :  4
+Time taken for Epoch :  8.8862 sec
+Load Time for epoch :  1.541923 sec with 2 workers  | cpu to gpu time :  0.139446 | Train Time :  4.591660 sec | steps in epoch :  25
+Avg Loss :  1.463  | Avg Accuracy :  45.674 %
+Top 1 accuracy is  1 among the individual label accuracies [46.88 60.94 26.74 25.62 28.66 43.28 55.4  52.48 60.12 56.62]
+-----------------------------------------------
+Epoch :  5
+Time taken for Epoch :  8.9204 sec
+Load Time for epoch :  1.585355 sec with 2 workers  | cpu to gpu time :  0.129474 | Train Time :  4.597687 sec | steps in epoch :  25
+Avg Loss :  1.334  | Avg Accuracy :  50.944 %
+Top 1 accuracy is  1 among the individual label accuracies [51.02 66.   34.04 32.68 32.1  44.94 62.88 58.92 64.66 62.2 ]
+Number of gradiants :  11173962
+Avg Data Load times with `2` workers is `1.438473` sec and Avg Train Times is `5.873545` sec
+Avg epoch time is `10.0925` sec
+...........................running new python file.............................
+python3 lab2.py --device=cuda     --dataset-path=../dataset     --optimizer=sgd     --num-of-workers=2     --epochs=5     --batch-size=8192     --print-epochs=true     --download-data=true     --run-code-3=false     --run-profiler=false     --no-batch-norm=false     --max-num-of-workers-for-code-3=8
+Files already downloaded and verified
+Number of trainable parameters :  11173962
+-----------------------------------------------
+Epoch :  1
+Time taken for Epoch :  10.7243 sec
+Load Time for epoch :  0.223387 sec with 2 workers  | cpu to gpu time :  0.140246 | Train Time :  6.007773 sec | steps in epoch :  7
+Avg Loss :  3.098  | Avg Accuracy :  14.82 %
+Top 1 accuracy is  0 among the individual label accuracies [25.72 21.94 17.9   7.94 19.88  7.42 12.54  5.48 23.28  6.1 ]
+-----------------------------------------------
+Epoch :  2
+Time taken for Epoch :  10.7998 sec
+Load Time for epoch :  2.086680 sec with 2 workers  | cpu to gpu time :  0.141603 | Train Time :  4.088385 sec | steps in epoch :  7
+Avg Loss :  3.141  | Avg Accuracy :  13.09 %
+Top 1 accuracy is  0 among the individual label accuracies [30.2   8.8   4.12  5.5  10.82 22.22  7.94 13.26 13.56 14.48]
+-----------------------------------------------
+Epoch :  3
+Time taken for Epoch :  10.6818 sec
+Load Time for epoch :  2.098823 sec with 2 workers  | cpu to gpu time :  0.131839 | Train Time :  4.061722 sec | steps in epoch :  7
+Avg Loss :  2.152  | Avg Accuracy :  18.728 %
+Top 1 accuracy is  1 among the individual label accuracies [36.36 52.38  9.18 18.76 14.38  1.78 32.64 12.78  5.86  3.16]
+-----------------------------------------------
+Epoch :  4
+Time taken for Epoch :  10.1245 sec
+Load Time for epoch :  1.789635 sec with 2 workers  | cpu to gpu time :  0.133881 | Train Time :  4.069054 sec | steps in epoch :  7
+Avg Loss :  1.966  | Avg Accuracy :  22.812 %
+Top 1 accuracy is  9 among the individual label accuracies [2.738e+01 8.640e+00 4.000e-02 1.830e+01 3.112e+01 3.558e+01 1.974e+01
+ 6.820e+00 2.344e+01 5.706e+01]
+-----------------------------------------------
+Epoch :  5
+Time taken for Epoch :  10.7243 sec
+Load Time for epoch :  1.961608 sec with 2 workers  | cpu to gpu time :  0.133207 | Train Time :  4.067821 sec | steps in epoch :  7
+Avg Loss :  1.857  | Avg Accuracy :  28.074 %
+Top 1 accuracy is  1 among the individual label accuracies [42.36 59.16  1.38  2.86 31.82 51.72 18.36 29.74 38.58  4.76]
+Number of gradiants :  11173962
+Avg Data Load times with `2` workers is `1.632027` sec and Avg Train Times is `4.458951` sec
+Avg epoch time is `10.6109` sec
+...........................running new python file.............................
+python3 lab2.py --device=cuda     --dataset-path=../dataset     --optimizer=sgd     --num-of-workers=2     --epochs=5     --batch-size=32768     --print-epochs=true     --download-data=true     --run-code-3=false     --run-profiler=false     --no-batch-norm=false     --max-num-of-workers-for-code-3=8
+Files already downloaded and verified
+Number of trainable parameters :  11173962
+-----------------------------------------------
+Epoch :  1
+Traceback (most recent call last):
+  File "/home/pp2959/hpml5/pp2959/lab2.py", line 326, in <module>
+    load_times, train_times, epoch_times = train_model(
+                                           ^^^^^^^^^^^^
+  File "/home/pp2959/hpml5/pp2959/lab2.py", line 157, in train_model
+    output = Model(x)
+             ^^^^^^^^
+  File "/ext3/miniconda3/envs/pytorch-0/lib/python3.12/site-packages/torch/nn/modules/module.py", line 1511, in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/ext3/miniconda3/envs/pytorch-0/lib/python3.12/site-packages/torch/nn/modules/module.py", line 1520, in _call_impl
+    return forward_call(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/ext3/miniconda3/envs/pytorch-0/lib/python3.12/site-packages/torch/nn/parallel/data_parallel.py", line 185, in forward
+    outputs = self.parallel_apply(replicas, inputs, module_kwargs)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/ext3/miniconda3/envs/pytorch-0/lib/python3.12/site-packages/torch/nn/parallel/data_parallel.py", line 200, in parallel_apply
+    return parallel_apply(replicas, inputs, kwargs, self.device_ids[:len(replicas)])
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/ext3/miniconda3/envs/pytorch-0/lib/python3.12/site-packages/torch/nn/parallel/parallel_apply.py", line 108, in parallel_apply
+    output.reraise()
+  File "/ext3/miniconda3/envs/pytorch-0/lib/python3.12/site-packages/torch/_utils.py", line 722, in reraise
+    raise exception
+torch.cuda.OutOfMemoryError: Caught OutOfMemoryError in replica 0 on device 0.
+Original Traceback (most recent call last):
+  File "/ext3/miniconda3/envs/pytorch-0/lib/python3.12/site-packages/torch/nn/parallel/parallel_apply.py", line 83, in _worker
+    output = module(*input, **kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/ext3/miniconda3/envs/pytorch-0/lib/python3.12/site-packages/torch/nn/modules/module.py", line 1511, in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/ext3/miniconda3/envs/pytorch-0/lib/python3.12/site-packages/torch/nn/modules/module.py", line 1520, in _call_impl
+    return forward_call(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/pp2959/hpml5/pp2959/model.py", line 95, in forward
+    x = self.sub_group_1(x)
+        ^^^^^^^^^^^^^^^^^^^
+  File "/ext3/miniconda3/envs/pytorch-0/lib/python3.12/site-packages/torch/nn/modules/module.py", line 1511, in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/ext3/miniconda3/envs/pytorch-0/lib/python3.12/site-packages/torch/nn/modules/module.py", line 1520, in _call_impl
+    return forward_call(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/ext3/miniconda3/envs/pytorch-0/lib/python3.12/site-packages/torch/nn/modules/container.py", line 217, in forward
+    input = module(input)
+            ^^^^^^^^^^^^^
+  File "/ext3/miniconda3/envs/pytorch-0/lib/python3.12/site-packages/torch/nn/modules/module.py", line 1511, in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/ext3/miniconda3/envs/pytorch-0/lib/python3.12/site-packages/torch/nn/modules/module.py", line 1520, in _call_impl
+    return forward_call(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/pp2959/hpml5/pp2959/model.py", line 57, in forward
+    x = self.relu_1(x)
+        ^^^^^^^^^^^^^^
+  File "/ext3/miniconda3/envs/pytorch-0/lib/python3.12/site-packages/torch/nn/modules/module.py", line 1511, in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/ext3/miniconda3/envs/pytorch-0/lib/python3.12/site-packages/torch/nn/modules/module.py", line 1520, in _call_impl
+    return forward_call(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/ext3/miniconda3/envs/pytorch-0/lib/python3.12/site-packages/torch/nn/modules/activation.py", line 101, in forward
+    return F.relu(input, inplace=self.inplace)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/ext3/miniconda3/envs/pytorch-0/lib/python3.12/site-packages/torch/nn/functional.py", line 1473, in relu
+    result = torch.relu(input)
+             ^^^^^^^^^^^^^^^^^
+torch.cuda.OutOfMemoryError: CUDA out of memory. Tried to allocate 1024.00 MiB. GPU 0 has a total capacity of 31.74 GiB of which 335.12 MiB is free. Including non-PyTorch memory, this process has 31.41 GiB memory in use. Of the allocated memory 29.42 GiB is allocated by PyTorch, and 1.56 GiB is reserved by PyTorch but unallocated. If reserved but unallocated memory is large try setting PYTORCH_CUDA_ALLOC_CONF=expandable_segments:True to avoid fragmentation.  See documentation for Memory Management  (https://pytorch.org/docs/stable/notes/cuda.html#environment-variables)
+

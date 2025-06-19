@@ -1,0 +1,50 @@
+#!/bin/bash
+
+
+
+DATASET_PATH='../dataset'
+
+python3 lab2.py --device=cuda --num-of-workers=2 --epochs=2 --optimizer=sgd --batch-size=32 --dataset-path=$DATASET_PATH 
+python3 lab2.py --device=cuda --num-of-workers=2 --epochs=2 --optimizer=sgd --batch-size=128 --dataset-path=$DATASET_PATH 
+python3 lab2.py --device=cuda --num-of-workers=2 --epochs=2 --optimizer=sgd --batch-size=512 --dataset-path=$DATASET_PATH 
+python3 lab2.py --device=cuda --num-of-workers=2 --epochs=2 --optimizer=sgd --batch-size=2048 --dataset-path=$DATASET_PATH 
+python3 lab2.py --device=cuda --num-of-workers=2 --epochs=2 --optimizer=sgd --batch-size=8192 --dataset-path=$DATASET_PATH 
+
+#echo "**************** QNS C1 AND C2 ********************"
+#echo "c1 and c2"
+#python3 lab2.py --device=cuda --num-of-workers=2 --epochs=5 --optimizer=sgd --batch-size=128 --dataset-path=$DATASET_PATH 
+#
+#echo "******************** QN C3 ************************"
+#echo "c3"
+#python3 lab2.py --device=cuda --num-of-workers=2 --epochs=5 --optimizer=sgd --dataset-path=$DATASET_PATH --run-code-3=true --max-num-of-workers-for-code-3=12 --print-epochs=false 
+#
+#echo "******************** QN C4 ************************"
+#echo "c4"
+#python3 lab2.py --device=cuda --num-of-workers=1 --epochs=5 --optimizer=sgd --dataset-path=$DATASET_PATH 
+#python3 lab2.py --device=cuda --num-of-workers=4 --epochs=5 --optimizer=sgd --dataset-path=$DATASET_PATH 
+#
+#echo "******************** QN C5 ************************"
+#echo "c5"
+#python3 lab2.py --device=cuda --num-of-workers=4 --epochs=5 --optimizer=sgd --dataset-path=$DATASET_PATH 
+#python3 lab2.py --device=cpu --num-of-workers=4 --epochs=5 --optimizer=sgd --dataset-path=$DATASET_PATH 
+#
+#echo "******************** QN C6 ************************"
+#echo "c6"
+#python3 lab2.py --device=cuda --num-of-workers=4 --epochs=5 --dataset-path=$DATASET_PATH --optimizer=sgd 
+#python3 lab2.py --device=cuda --num-of-workers=4 --epochs=5 --dataset-path=$DATASET_PATH --optimizer=sgd-nesterov 
+#python3 lab2.py --device=cuda --num-of-workers=4 --epochs=5 --dataset-path=$DATASET_PATH --optimizer=adagrad 
+#python3 lab2.py --device=cuda --num-of-workers=4 --epochs=5 --dataset-path=$DATASET_PATH --optimizer=adadelta 
+#python3 lab2.py --device=cuda --num-of-workers=4 --epochs=5 --dataset-path=$DATASET_PATH --optimizer=adam 
+#
+#echo "******************** QN C7 ************************"
+#echo "c7"
+#python3 lab2.py --device=cuda --epochs=5 --optimizer=sgd --num-of-workers=4 --dataset-path=$DATASET_PATH --no-batch-norm=true 
+#
+#echo "******************** QN C8 ************************"
+#echo "extra credits"
+#python3 lab2.py --device=cuda --optimizer=sgd --num-of-workers=4 --dataset-path=$DATASET_PATH --run-profiler=true --trace-file-name=gpu-trace-1-worker
+#python3 lab2.py --device=cuda --optimizer=sgd --num-of-workers=1 --dataset-path=$DATASET_PATH --run-profiler=true --trace-file-name=gpu-trace-4-workers
+#python3 lab2.py --device=cpu --optimizer=sgd --num-of-workers=1 --dataset-path=$DATASET_PATH --run-profiler=true --trace-file-name=cpu-trace
+#
+#exit
+#
