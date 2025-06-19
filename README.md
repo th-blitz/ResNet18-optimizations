@@ -1,6 +1,23 @@
-# HPML-2
-### High Performance Machine Learning ( HPML ) Assignment 2 <br>
+# HPML ResNet18 Experiment ( Labs 2 and 5 )
+### High Performance Machine Learning ( HPML ) Lab <br>
 By Preetham Rakshith (c) 2024 pp2959
+
+A project to profile, benchmark and optimize ResNet-18 DDP training with PyTorch, Slurm, and Singularity scalable across 4 V100 nodes on NYU Greene HPC. 
+
+## Benchmark results
+The log files are as follows :<br>
+- lab5/gpus1.out : Output for using 1 GPUs for batch sizes of 32, 128, 512, 2048 and 8192 / gpu.<br>
+- lab5/gpus2.out : Output for using 2 GPUs for batch sizes of 32, 128, 512, 2048 and 8192 / gpu.<br>
+- lab5/gpus4.out : Output for using 4 GPUs for batch sizes of 32, 128, 512, 2048 and 8192 / gpu.<br>
+- lab5/q4.out : Output for using 4 GPUs with batch size of 512 / gpu ( best batch size ) for q4.<br>
+
+## Benchmark Summary
+
+<img width="807" alt="Screenshot 2025-06-19 at 12 12 31 PM" src="https://github.com/user-attachments/assets/d7256bf5-74be-4568-b315-1b2ff9085411" />
+
+From the above measurements we are looking at strong scaling behaviour. The problem size which is our total size of the dataset remains unchanged as the number of processes increases which is the number of gpus. With increase in the number of gpus with respect to the batch size the total train times per epoch reduces, thus this is a strong scaling behaviour.
+
+In case of weak scaling, we could double the dataset size for 2-GPUs and keep it the same for 1-GPU. In this case, the total train time will be doubled in theory, that is for 2-GPU with batch size of 512/gpu the train time would be 10.20 x 2 = 20.4 seconds. And for 1-GPU with batch size of 512/gpu the train time will remain the same, 18.07 seconds. Therefore, the speedup will be 0.88 which is less than the speedup of 1.77 with strong scaling. Similarly with 4-GPUs and batch size of 8192/gpu, the train times can be calculated as 5.02 * 4 = 20.08 seconds. With a speedup of 18.34/20.08 = 0.91. Thus, we can observe that speedups with weak scaling would be less than 1 in most cases based on our data. And thus strong scaling is better than weak scaling in this instance.
 
 ## Instructions to run the experiments
 Required libraries
